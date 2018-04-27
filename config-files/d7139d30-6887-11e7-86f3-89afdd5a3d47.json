@@ -1,0 +1,60 @@
+{
+    "ideditor": "d7139d30-6887-11e7-86f3-89afdd5a3d46",
+    "idviewer": "d7139d30-6887-11e7-86f3-89afdd5a3d47",
+    "builderoptions": {
+        "databasename": "tempsactual",
+        "csvfile": null,
+        "timerange": {
+            "latest": false,
+            "timemax": "2018-03-23 08:53:00",
+            "timemin": "2018-03-23 08:23:00"
+        },
+        "selectedfileds": ["Font", "Data", "Poblacio", "lat", "lon"],
+        "selectedstations": {
+            "bycomarca": [],
+            "bystationall": false,
+            "bystation": [24, 22, 22, 34]
+        },
+        "selectedfilterfields": ["Temp", "Temp.Max", "VentFor"]
+    },
+    "vieweroptions": {
+        "geojsonpath": "http://84.88.72.60/convertboxv2/vectorizator/getStationsValues?",
+        "style": "https://tilemaps.icgc.cat/tileserver/styles/polit.json",
+        "dynamic": false,
+        "initview": {
+            "lat": 41.854,
+            "lon": 2.95470 ,
+            "zoom": 12,
+            "pitch": 45,
+            "bearing": 0
+        },
+        "title": "Mapa de temperatures",
+        "infowindow": {
+            "title": "temperatures",
+            "fields": ["temperatura"]
+        },
+        "units": "metric",
+        "animationfields": {
+            "x": "created_at",
+            "y": "temp",
+            "timemax": "2018-03-23 08:53:00",
+            "timemin": "2018-03-23 08:23:00"
+        },
+        "thematicoptions": {
+            "field": "temps",
+            "colorrangs": ["#FFFCCC", "#FFFCC4", "#FFFCC3", "#FFFCC2"],
+            "labelrangs": ["2 - 5", "6 - 12", "12 - 18", "22 - 25"],
+            "labellegend": "Tempertures"
+        },
+        "heatmaplayer": false,
+        "layoutoptions": {
+            "searchbox": false,
+            "unitsbox": false,
+            "filtericons": ["temp", "vent", "pluja"]
+        }
+
+
+
+    }
+
+}
