@@ -20,7 +20,7 @@
 		"selectedfilterfields": ["temp","temp.max","temp.min","amplitud.termica","ventdir","ventfor","ventmax","simbolvent","windchill","humitat","humidex","pluja","alt","patm","webcams","nomok","comarca"]
 	},
 	"vieweroptions": {
-		"geojsonpath": "http://localhost/web-mapa/web/data/meteodades_current_pol.geojson",
+		"geojsonpath": "https://raw.githubusercontent.com/geostarters/test-files/master/geojson/meteodades_current_pol.geojson",
         "style": "https://tilemaps.icgc.cat/tileserver/styles/fosc.json",
 		"dynamic": false,
 		"sourcename": "tempsactual",
